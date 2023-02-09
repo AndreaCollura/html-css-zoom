@@ -15,6 +15,7 @@
 --green-share: #4BC800;
 --red-exit: #C5242A;
 --grey-exit: #4A4A4A;
+--grey-proname: #4a4a4ac9;
 
 }
 
@@ -35,13 +36,13 @@ body{
 
 .head-nav{
     max-width: 100%;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */ 
     height: 40px ;
 }
 
 
 .main-container{
-    width : 90vw;
+    width : 85vw;
     height: calc(100vh - 100px);
     margin: 0 auto;
     overflow: auto;
@@ -52,7 +53,9 @@ body{
 }
 
 .profile-card{
-    width: calc(100% / 7);   
+    width: calc(100% / 7 - 10px);
+    margin: 5px; 
+    position: relative;  
 }
 
 .footer-nav{
@@ -60,6 +63,7 @@ body{
     height: 60px;
     background-color: var(--grey-foot-bg);
 }
+
 
 
 
@@ -86,6 +90,10 @@ body{
     justify-content: space-between;
 }
 
+.alicon-center{
+    align-content:center ;
+}
+
 
 /* IMG */
 
@@ -103,8 +111,25 @@ main img{
 
 header a {
     color: var(--white-text);
-    padding: 10px 20px;
+    padding: 5px 5px;
     background-color: var(--grey-exit);
+    margin-right: 5px;
+    font-size: .8rem;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.profile-name{
+    padding: 2px 3px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    background-color: var(--grey-proname);
+    color: var(--white-text);
+    font-size: 0.8rem;
+    
 }
 
 
