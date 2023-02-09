@@ -36,7 +36,7 @@ body{
 
 .head-nav{
     max-width: 100%;
-    /* padding-bottom: 40px; */ 
+    
     height: 40px ;
 }
 
@@ -73,8 +73,14 @@ body{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
-    /* gap: ; */
+
     
+}
+
+
+.d-flex-col{
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .justicon-end{
@@ -92,6 +98,10 @@ body{
 
 .alicon-center{
     align-content:center ;
+}
+
+.alitem-center{
+    align-items: center;
 }
 
 
@@ -129,8 +139,44 @@ header a {
     background-color: var(--grey-proname);
     color: var(--white-text);
     font-size: 0.8rem;
+}
+
+
+.btn-conf{
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.btn-conf a{
+    text-align: center;
+    color: var(--white-text);
+    font-size: 1.5rem;
+
+
+}
+
+.btn-conf p{
+    font-size: 0.6rem;
+
+}
+
+.green-btn{
+    color: var(--green-share);
+}
+
+.exit-box a{
+    color: var(--red-exit);
+    text-decoration: none;
+    font-size: .8rem;
     
 }
 
 
-
+.exit-box span{
+    text-align: center;
+    padding: 22px 20px;
+    background-color: var(--grey-exit);
+    
+    
+}
