@@ -1,0 +1,53 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    /* Color styles */
+--black-bg: #000000;
+--grey-foot-bg: #222222;
+--white-text: #FFFFFF;
+--green-share: #4BC800;
+--red-exit: #C5242A;
+--grey-exit: #4A4A4A;
+
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--black-bg);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINER */
+
+
+
+/* FLEX */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.justicon-end{
+    justify-content: flex-end;
+    
+}
+
+
+/* IMG */
+
+/* TEXT */
+
